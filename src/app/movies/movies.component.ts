@@ -4,7 +4,14 @@ import { Component } from '@angular/core';
 ({
     selector: 'movies'  , //#movies-> id .movies-> class  movies ->> etiket
     //template: '<h2>Movies</h2>'
-    templateUrl: 'movies.component.html'
+    templateUrl: 'movies.component.html' ,
+    styles: 
+    [`
+        h2
+        {
+            color:blue;
+        }
+    `]
  })
 export class MoviesComponent
 {
